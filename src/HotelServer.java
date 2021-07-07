@@ -10,5 +10,5 @@ public class HotelServer {
         } catch(Exception e) {
             e.printStackTrace();
         }
-    }
+    } 
 }

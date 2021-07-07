@@ -20,7 +20,7 @@ public class Quarto {
     }
 
     public Integer getTipo() {
-        return tipo;
+        return tipo; 
     }
 
     public String getModelo() {

@@ -6,3 +6,4 @@ public interface RoomManager extends Remote {
     String reserve(int tipoDoQuarto, String nameGuests) throws RemoteException;
     String guests() throws RemoteException;
 }
+ 

@@ -17,7 +17,7 @@ public class QuartoManagerImplements extends UnicastRemoteObject implements Room
     }
 
     public String list() throws RemoteException {
-        StringBuilder list = new StringBuilder();
+        StringBuilder list = new StringBuilder(); 
         for (Quarto quarto : QuartoList) list.append(quarto.toString()).append("\n");
         return list.toString();
     }

@@ -24,7 +24,7 @@ public class HotelClient {
                 System.out.println("Erro Tente Novamente!!");
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace(); 
         }
     }
 }
